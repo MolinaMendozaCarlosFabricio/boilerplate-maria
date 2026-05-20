@@ -68,7 +68,7 @@ function Contratos() {
 
       <div className="bg-white rounded-xl shadow-sm overflow-hidden">
         {/* TODO: Bug #2 - missing overflow-x-auto wrapper for mobile responsiveness */}
-        <div className='overflox-x-auto'>
+        <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead className="bg-gray-50">
             <tr>
