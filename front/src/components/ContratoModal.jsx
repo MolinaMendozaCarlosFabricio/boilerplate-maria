@@ -44,7 +44,7 @@ function ContratoModal({ onClose, onSuccess }) {
 
     // TODO: Bug #3 - Even when errors exist, the form tries to submit anyway
     // because the condition below is inverted
-    if (Object.keys(newErrors).length === 0) {
+    if (Object.keys(newErrors).length !== 0) {
       setErrors(newErrors);
       return;
     }
@@ -57,7 +57,7 @@ function ContratoModal({ onClose, onSuccess }) {
       onSuccess(data);
       // TODO: Bug #1 - Modal doesn't close after successful submit
       // Fix: uncomment the line below
-      // onClose();
+      onClose();
     } catch (err) {
       console.error('Error creating contrato:', err);
       setErrors({ submit: err.response?.data?.error || 'Error al crear el contrato' });
