@@ -39,7 +39,7 @@ Las restricciones son que tanto el email como el número de teléfono deben de s
 Entonces, dame la consulta para hacer los 10 registros por favor.
 
 ### Por qué lo estructuraste así
-El rol de agente de reservas permite redactar el campo de contrato y demás información como lo sería en un ambiente real, indique la tarea de manera simple, en el contexto indiqué los campos y restricciones con el fin de que me retornara la consulta con una sintaxis SQL compatible con la base de datos, y en el resultado indique precisamente lo que quería, una consulta SQL.
+El rol de agente de reservas permite redactar el campo de contrato y demás información como lo sería en un ambiente real, indiqué la tarea de manera simple, en el contexto indiqué los campos y restricciones con el fin de que me retornara la consulta con una sintaxis SQL compatible con la base de datos, y en el resultado indiqué precisamente lo que quería, una consulta SQL.
 
 ### Segunda iteración (si aplica)
 <!-- Si el primer resultado no fue ideal, ¿cómo refinaste el prompt? -->
